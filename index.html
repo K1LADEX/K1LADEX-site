@@ -112,6 +112,11 @@
       max-width: 520px;
       margin-bottom: 40px;
       line-height: 1.7;
+      display: block;
+    }
+
+    .hero-sub span {
+      display: block;
     }
 
     .btn-primary {
@@ -185,16 +190,14 @@
 
     .checkpoint {
       background: var(--surface);
-      border: 1px solid var(--border);
+      border: 1px solid var(--accent);
       border-radius: 6px;
       padding: 8px 14px;
       font-size: 13px;
       font-weight: 600;
-      color: var(--text);
+      color: var(--accent);
       letter-spacing: 0.04em;
     }
-
-    .checkpoint.accent { border-color: var(--accent); color: var(--accent); }
 
     /* ── QUOTE ── */
     blockquote {
@@ -422,7 +425,7 @@
       <div class="divider"></div>
       <p>Type any ticker. K1LADEX runs it through 7 checkpoints — every scan returns a score, a verdict, and a reason. No opinions. No hype. Just the number.</p>
       <div class="checkpoints">
-        <span class="checkpoint accent">Surge</span>
+        <span class="checkpoint">Surge</span>
         <span class="checkpoint">Consolidation</span>
         <span class="checkpoint">Growth</span>
         <span class="checkpoint">Red Flags</span>
