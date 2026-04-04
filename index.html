@@ -52,17 +52,48 @@
       border-bottom: 1px solid var(--border);
       padding: 16px 24px;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
     }
 
+    .nav-left {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
     .logo {
-      font-size: 15px;
-      font-weight: 700;
+      font-size: 22px;
+      font-weight: 900;
       letter-spacing: 0.12em;
       color: var(--accent);
       text-decoration: none;
     }
+    .logo:hover { opacity: 0.85; }
+
+    .nav-link {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: 0.04em;
+    }
+    .nav-link:hover { text-decoration: underline; }
+
+    .nav-founding {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--bg);
+      background: var(--gold);
+      border-radius: 5px;
+      padding: 4px 10px;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      width: fit-content;
+      transition: background 0.2s;
+    }
+    .nav-founding:hover { background: #f7d76a; }
 
     .nav-cta {
       font-size: 13px;
@@ -76,6 +107,8 @@
       text-decoration: none;
       letter-spacing: 0.04em;
       transition: background 0.2s;
+      white-space: nowrap;
+      align-self: center;
     }
     .nav-cta:hover { background: #33eaff; }
 
@@ -401,8 +434,12 @@
 
   <!-- NAV -->
   <nav>
-    <a class="logo" href="#">K1LADEX</a>
-    <a class="nav-cta" href="https://app.k1ladex.com">Run a free scan</a>
+    <a class="logo" href="https://k1ladex.com">K1LADEX</a>
+    <div style="display:flex;flex-direction:column;gap:6px;align-items:flex-end;">
+      <a class="nav-founding" href="https://buy.stripe.com/eVqdRb1PY8t3cRae4vcMM04">Get founding member access</a>
+      <a class="nav-link" href="mailto:K1LADEX@k1ladex.com">K1LADEX@k1ladex.com</a>
+      <a class="nav-link" href="https://x.com/K1LADEX" target="_blank" rel="noopener">X</a>
+    </div>
   </nav>
 
   <!-- HERO -->
