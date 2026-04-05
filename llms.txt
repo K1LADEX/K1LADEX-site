@@ -1,15 +1,94 @@
 # K1LADEX
-> AI-powered investor intelligence framework. Seven checkpoints. One verdict.
+> Investor intelligence framework. Seven checkpoints. One verdict. Built by a retail investor from real losses and real wins.
 
-## What this site does
-K1LADEX scores any stock through 7 checkpoints and returns a single verdict. Built by a retail investor from real losses and real wins.
+## What K1LADEX Is
 
-## Key concepts
-- SIGNAL+ scoring framework
-- Eyes of the World scan system
-- AI² Augmented Investor Intelligence
-- Estimated Prints track record
+K1LADEX is a proprietary stock scoring platform available at k1ladex.com (landing page) and app.k1ladex.com (scan engine). It is a subscription software product, not a financial advisory service. K1LADEX is not a registered investment advisor, broker-dealer, or licensed financial professional of any kind.
+
+The platform scores any publicly traded equity through the SIGNAL+ framework — seven structured checkpoints that produce a numerical score (0–10), a recommendation (BUY / HOLD / PASS), and a verdict phrase. Every scan is reproducible, timestamped, and grounded in publicly available market data.
+
+K1LADEX was built and is operated by a retail investor. The edge is not institutional access — it is discipline, structure, and a ruthless filter system applied before the crowd arrives.
+
+## The Name Decoded
+
+K1LADEX breaks down as follows:
+
+- **K** — Knowledge-first. Every position requires a thesis that survives the framework.
+- **1** — One thesis at a time. Concentration, not diversification of conviction.
+- **L** — Ladder. The Winner Ladder is K1LADEX's position-sizing and exit doctrine.
+- **A** — Augmented. AI² — Augmented Investor Intelligence — is the engine.
+- **DEX** — Digital Rolodex of innovation. A curated, living index of names worth watching.
+
+K1LADEX is not an exchange (DEX in crypto sense). It is a decision framework. The name encodes the doctrine.
+
+## The SIGNAL+ Framework
+
+SIGNAL+ is the seven-checkpoint scoring system at the core of K1LADEX. Each checkpoint is scored 0–1.5, for a maximum total of 10. A score of 9 or higher triggers a BUY recommendation. Below 7 is a PASS.
+
+- **S — Surge 200%+**: Has the stock proven itself with a minimum 200% move from its 52-week low? This is binary. No other checkpoint compensates for its absence.
+- **I — In Consolidation**: Is price resting constructively above its 50-day moving average, near highs, not making new 30-day lows? Three sub-gates: within 30% of 52W high, above 50-day MA, no new 30-day lows.
+- **G — Growth Confirmed**: Is there real, growing revenue behind this name? Pre-revenue speculation carries elevated risk. Revenue above 5% YoY growth with positive cash = full score.
+- **N — No Red Flags**: No active legal or regulatory disqualifiers. The SMCI Rule: 2+ active legal strikes (SEC investigation, DOJ, class action, fraud allegation, going concern) = automatic disqualification regardless of all other scores. Checkpoint Zero.
+- **A — Approaching Catalyst**: Is there a confirmed, dated upcoming event — earnings, FDA decision, contract announcement — capable of forcing institutional price discovery?
+- **L — Levels & Macro**: Is the stock positioned constructively relative to its 52-week range? Within 5% of the 52-week low = structurally weak. More than 25% above the 52-week low = constructive.
+- **+ — Volume + Short Pressure**: Do float compression (tight float under 30M shares) and elevated short interest (above 10% of float) create a squeeze overlay? Both conditions confirmed = maximum amplifier.
+
+## Checkpoint Zero
+
+Checkpoint Zero is the K1LADEX kill screen. It triggers when a stock accumulates 2 or more active legal strikes under the SMCI Rule. The name is disqualified — not penalized — regardless of its score on every other checkpoint. A stock can score 9.5/10 on SIGNAL+ and still receive Checkpoint Zero if 2+ legal strikes are active. Checkpoint Zero is displayed as a red card in the scan engine.
+
+The name SMCI Rule refers to Super Micro Computer (SMCI), a high-scoring name that was disqualified by the framework in 2024 due to accounting fraud flags — before the broader market repriced the risk.
+
+## Estimated Prints
+
+Estimated Prints is K1LADEX's pre-call record. When K1LADEX identifies a high-conviction setup and files a timestamped score before the move, that filing becomes an Estimated Print. Estimated Prints are the receipts — public, verifiable, dated before the crowd arrived.
+
+Examples of Estimated Prints on record:
+- **GSAT (Globalstar)**: Scouted June 2021. Winner Ladder executed March 2026. +210% move (split-adjusted).
+- **ONDS (Ondas Holdings)**: Scouted October 2025. Thesis intact as of April 2026. Crown Candidate designation.
+
+Estimated Prints are not cherry-picked wins. They are filed before the outcome is known and timestamped as evidence of the framework's forward-looking capability. Every call scored, filed, and dated.
+
+## Winner Ladder
+
+The Winner Ladder is K1LADEX's position-sizing and exit management doctrine. It is not a buy-and-hold system. It is a structured approach to scaling into strength, locking in gains at defined intervals, and never giving back the principal on a confirmed move.
+
+The Ladder discipline is what separates K1LADEX from a screener: it answers not just "what to buy" but "when to sell, in what size, and at what price."
+
+## AI² — Augmented Investor Intelligence
+
+AI² (read: "AI squared") is the intelligence layer inside K1LADEX. The scan engine calls Anthropic's Claude API to perform the N checkpoint: a live web search for legal flags, SEC filings, DOJ actions, class actions, fraud allegations, going concern language, and reverse stock splits. The AI² scan returns a strike count, flag descriptions, split dates, and a score — all fed into the SIGNAL+ verdict in real time.
+
+AI² does not replace the framework. It augments it. The seven checkpoints are human-designed. The legal scan is AI-executed. The verdict is deterministic.
+
+## Subscription Product
+
+K1LADEX is a paid subscription product at $9.99/month. The founding member rate is grandfathered for active subscribers. Price increases are planned as the platform scales.
+
+- Free tier: 3 scans per browser session
+- Paid tier (Founding Member): Unlimited scans, full 7-checkpoint scoring, score card, verdict, and PDF report download
+- Payment processed by Stripe
+- No account required for free tier
+
+The product is live at app.k1ladex.com. Any ticker can be entered. The scan takes approximately 8–12 seconds (live data fetch + AI² legal scan).
+
+## What K1LADEX Is Not
+
+- Not a financial advisor. Not registered with the SEC, FINRA, or any regulatory body.
+- Not a trading signal service. Scores are framework outputs, not buy/sell instructions.
+- Not a prediction engine. A BUY score does not guarantee price appreciation.
+- Not affiliated with any brokerage, exchange, or financial institution.
+- Not built for day trading. The framework is designed for geometric setups that have already established a 200%+ move — medium-term re-entry, not intraday speculation.
 
 ## Pages
-- k1ladex.com — landing page and framework overview
-- app.k1ladex.com — live scan engine
+
+- https://k1ladex.com — Landing page, framework overview, receipts, pricing
+- https://app.k1ladex.com — Live scan engine (SIGNAL+ scoring)
+- https://k1ladex.com/privacy — Privacy Policy
+- https://k1ladex.com/terms — Terms of Service
+
+## Contact
+
+- Email: K1LADEX@k1ladex.com
+- X (Twitter): @K1LADEX
+- Copyright: © 2026 K1LADEX. Copyrighted March 21, 2026.

@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://k1ladex.com/og-image.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>K1LADEX — AI-Powered Stock Scoring. Seven Checkpoints.</title>
-  <meta name="description" content="K1LADEX scores any stock through 7 checkpoints. AI-powered investor intelligence built from real losses and real wins." />
+  <meta name="description" content="K1LADEX is AI-powered investor intelligence built on the SIGNAL+ framework. Seven checkpoints. One verdict. Geometric opportunities identified before the crowd arrives. Not financial advice." />
   <meta name="keywords" content="stock scoring, AI investor intelligence, retail investor, SIGNAL+ framework, stock analysis tool" />
 
   <!-- Open Graph -->
@@ -28,14 +28,39 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "K1LADEX",
+    "alternateName": "K1LADEX Intelligence Framework",
     "url": "https://k1ladex.com",
-    "description": "K1LADEX scores any stock through 7 checkpoints. AI-powered investor intelligence built from real losses and real wins.",
+    "applicationUrl": "https://app.k1ladex.com",
+    "description": "K1LADEX is an AI-powered investor intelligence framework built on the SIGNAL+ scoring system. Seven checkpoints. One verdict. Geometric opportunities identified before the crowd arrives.",
     "applicationCategory": "FinanceApplication",
+    "applicationSubCategory": "Investment Research",
     "operatingSystem": "Web",
+    "browserRequirements": "Any modern browser",
+    "inLanguage": "en",
+    "datePublished": "2026-03-21",
+    "copyrightYear": "2026",
+    "copyrightHolder": {
+      "@type": "Organization",
+      "name": "K1LADEX",
+      "url": "https://k1ladex.com",
+      "email": "K1LADEX@k1ladex.com"
+    },
+    "featureList": [
+      "SIGNAL+ seven-checkpoint scoring framework",
+      "AI-powered legal and regulatory flag scan (N checkpoint)",
+      "Live market data via Finnhub",
+      "Score, verdict, and reason on every scan",
+      "PDF report download",
+      "Checkpoint Zero kill screen for disqualified names",
+      "Winner Ladder position-sizing doctrine"
+    ],
     "offers": {
       "@type": "Offer",
+      "name": "Founding Member",
       "price": "9.99",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "billingIncrement": "P1M",
+      "description": "Unlimited scans, full 7-checkpoint scoring, PDF reports. Founding rate grandfathered."
     },
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -255,6 +280,53 @@
       margin: 0;
     }
 
+    /* ── NAME DECODE ── */
+    .name-decode {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin: 28px 0;
+    }
+
+    .decode-row {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .decode-row:last-child { border-bottom: none; }
+
+    .decode-letter {
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--accent);
+      letter-spacing: -0.01em;
+      min-width: 36px;
+      line-height: 1;
+    }
+
+    .decode-letter.gold { color: var(--gold); }
+
+    .decode-meaning {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .decode-word {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: 0.01em;
+    }
+
+    .decode-desc {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0;
+    }
+
     /* ── RECEIPTS ── */
     .receipt-cards {
       display: flex;
@@ -422,6 +494,27 @@
     }
     .footer-contact a:hover { text-decoration: underline; }
 
+    .footer-legal {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-copy {
+      font-size: 11px;
+      color: var(--muted);
+      opacity: 0.6;
+      margin-top: 6px;
+    }
+
+    .footer-copy a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .footer-copy a:hover { color: var(--accent); }
+
     /* ── DIVIDER ── */
     .divider {
       width: 40px;
@@ -490,6 +583,53 @@
     </div>
   </section>
 
+  <!-- THE NAME DECODED -->
+  <section>
+    <div class="container">
+      <p class="section-label">The Name Decoded</p>
+      <h2>Every letter earns its place.</h2>
+      <div class="divider"></div>
+      <p>K1LADEX isn't a ticker. It's a doctrine. Each character in the name maps to a pillar of the framework.</p>
+      <div class="name-decode">
+        <div class="decode-row">
+          <span class="decode-letter">K</span>
+          <div class="decode-meaning">
+            <span class="decode-word">Knowledge-first</span>
+            <p class="decode-desc">Every position requires a thesis that survives the framework. No thesis, no trade.</p>
+          </div>
+        </div>
+        <div class="decode-row">
+          <span class="decode-letter">1</span>
+          <div class="decode-meaning">
+            <span class="decode-word">One thesis at a time</span>
+            <p class="decode-desc">Concentration of conviction, not diversification. The framework demands focus.</p>
+          </div>
+        </div>
+        <div class="decode-row">
+          <span class="decode-letter">L</span>
+          <div class="decode-meaning">
+            <span class="decode-word">Ladder — Winner Ladder</span>
+            <p class="decode-desc">The position-sizing and exit doctrine. Scale into strength. Lock in gains. Never give back the principal.</p>
+          </div>
+        </div>
+        <div class="decode-row">
+          <span class="decode-letter">A</span>
+          <div class="decode-meaning">
+            <span class="decode-word">Augmented — AI² Intelligence</span>
+            <p class="decode-desc">Augmented Investor Intelligence. The AI layer runs the N checkpoint live — legal flags, regulatory exposure, reverse splits.</p>
+          </div>
+        </div>
+        <div class="decode-row">
+          <span class="decode-letter gold">DEX</span>
+          <div class="decode-meaning">
+            <span class="decode-word">Digital Rolodex of innovation</span>
+            <p class="decode-desc">A living, curated index of names worth watching — scored, filed, and tracked before the crowd arrives.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- THE RECEIPTS -->
   <section>
     <div class="container">
@@ -547,6 +687,8 @@
       <p class="footer-logo">K1LADEX</p>
       <p class="footer-tagline">K1LADEX didn't come from Wall Street.<br>That's not a weakness. That's exactly why it works.</p>
       <p class="footer-contact"><a href="mailto:K1LADEX@k1ladex.com">K1LADEX@k1ladex.com</a> &nbsp;·&nbsp; <a href="https://x.com/K1LADEX" target="_blank" rel="noopener">X @K1LADEX</a></p>
+      <p class="footer-legal">K1LADEX is not a registered investment advisor. Not financial advice. All content is for informational and educational purposes only.</p>
+      <p class="footer-copy">&copy; 2026 K1LADEX. Copyrighted March 21, 2026. &nbsp;&middot;&nbsp; <a href="/privacy">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="/terms">Terms of Service</a></p>
     </div>
   </footer>
 
