@@ -1,0 +1,15 @@
+# K1LADEX
+> AI-powered investor intelligence framework. Seven checkpoints. One verdict.
+
+## What this site does
+K1LADEX scores any stock through 7 checkpoints and returns a single verdict. Built by a retail investor from real losses and real wins.
+
+## Key concepts
+- SIGNAL+ scoring framework
+- Eyes of the World scan system
+- AI² Augmented Investor Intelligence
+- Estimated Prints track record
+
+## Pages
+- k1ladex.com — landing page and framework overview
+- app.k1ladex.com — live scan engine
