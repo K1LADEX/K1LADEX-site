@@ -61,9 +61,9 @@
       <p>We collect minimal information necessary to operate the service:</p>
       <ul>
         <li><strong>Usage data:</strong> Ticker symbols entered into the scan engine, scan frequency, and general usage patterns. This data is not tied to your identity.</li>
-        <li><strong>Scan count:</strong> A scan counter is stored in your browser's <code>localStorage</code>. This stays on your device and is not transmitted to us.</li>
+        <li><strong>Scan count:</strong> A scan counter is stored in your browser's <code>sessionStorage (localStorage fix pending)</code>. This stays on your device and is not transmitted to us.</li>
         <li><strong>Payment information:</strong> If you subscribe, payment is processed by Stripe. We do not receive or store your credit card number. Stripe's privacy policy governs that data.</li>
-        <li><strong>Email address:</strong> If you contact us by email, we retain your address to respond to your inquiry.</li>
+        <li><strong>Email address:</strong> If you subscribe via Stripe, we may receive your email address to deliver access credentials and service communications. If you contact us by email, we retain your address to respond to your inquiry.</li>
         <li><strong>Server logs:</strong> Standard web server logs (IP address, browser type, referring URL, timestamps) may be retained for up to 30 days for security and debugging purposes.</li>
       </ul>
 
@@ -76,7 +76,7 @@
       </ul>
 
       <h2>Cookies and Local Storage</h2>
-      <p>The App uses browser <code>localStorage</code> to store your free scan count and session state. No tracking cookies are set by K1LADEX. If you use a third-party payment link (Stripe), Stripe may set cookies governed by their policy.</p>
+      <p>The App uses browser <code>sessionStorage (localStorage fix pending)</code> to store your free scan count and session state. No tracking cookies are set by K1LADEX. If you use a third-party payment link (Stripe), Stripe may set cookies governed by their policy.</p>
 
       <h2>Third-Party Services</h2>
       <p>The App fetches live market data from third-party providers including Finnhub and Finviz. When the App requests data on your behalf, your query (the ticker symbol) is transmitted to those services. Review Finnhub's and Finviz's privacy policies for their data handling practices.</p>
