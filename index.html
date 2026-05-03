@@ -68,7 +68,14 @@
       "reviewCount": "1"
     }
   }
-  </script>
+  function goToScan(){
+  if(/Mobi|Android/i.test(navigator.userAgent)){
+    window.location.href='https://app.k1ladex.com/intelligence.html';
+  } else {
+    window.location.href='https://app.k1ladex.com';
+  }
+}
+</script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -536,7 +543,7 @@
   <!-- NAV -->
   <nav>
     <a class="logo" href="https://k1ladex.com">K1LADEX</a>
-    <a class="nav-cta" href="https://app.k1ladex.com">Run a free scan</a>
+    <a class="nav-cta" href="#" onclick="goToScan();return false;">Run a free scan</a>
   </nav>
 
   <!-- HERO -->
@@ -546,7 +553,7 @@
       <h1>The market reads the headline.<br><span>K1LADEX reads the footnotes.</span></h1>
       <p class="hero-sub">Pattern recognition with a framework behind it.<br>Built for the investor who pays attention.</p>
       <div class="hero-cta-group">
-        <a class="btn-primary" href="https://app.k1ladex.com">Run your first scan free</a>
+        <a class="btn-primary" href="#" onclick="goToScan();return false;">Run your first scan free</a>
       </div>
     </div>
   </section>
